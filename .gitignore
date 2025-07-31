@@ -1,0 +1,71 @@
+## Build e artefatos temporários
+bin/
+obj/
+out/
+TestResults/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## Logs e relatórios
+*.log
+*.tlog
+*.vspscc
+*.vspx
+*.pdb
+
+## Configurações do Rider/VSCode/Visual Studio
+.vscode/
+.idea/
+*.code-workspace
+.vs/
+
+## Diretórios e arquivos do sistema
+*.DS_Store
+*.Thumbs.db
+*.bak
+*.tmp
+
+## Arquivos de pacote
+*.nupkg
+*.snupkg
+*.nuspec
+packages/
+project.lock.json
+project.fragment.lock.json
+
+## Arquivos de publish
+publish/
+app.publish/
+*.Publish.xml
+
+## Arquivos de segredo e configs locais
+secrets.json
+*.userprefs
+*.env
+.env.*
+
+## Arquivos do dotnet-ef (migrations temporárias)
+Migrations/
+
+## Outros arquivos ignoráveis comuns
+*.cache
+*.rej
+*.orig
+*.sdf
+*.sqlite
+*.mdf
+*.ldf
+
+## Diretórios que podem conter builds ou distribuições
+dist/
+build/
+artifacts/
+
+# Evite subir dependências locais caso não esteja usando restore via nuget
+**/packages/*/
+
+# Ignorar certificado de desenvolvimento do .NET
+*.pfx
+*.cer
