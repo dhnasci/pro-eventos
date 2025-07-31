@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Des\\Proeventos\\Proeventos\\back\\src\\ProVentos.API\\ProVentos.API.csproj": {}
+    "C:\\Des\\Proeventos\\Proeventos\\Back\\src\\ProVentos.API\\ProVentos.API.csproj": {}
   },
   "projects": {
-    "C:\\Des\\Proeventos\\Proeventos\\back\\src\\ProVentos.API\\ProVentos.API.csproj": {
+    "C:\\Des\\Proeventos\\Proeventos\\Back\\src\\ProVentos.API\\ProVentos.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Des\\Proeventos\\Proeventos\\back\\src\\ProVentos.API\\ProVentos.API.csproj",
+        "projectUniqueName": "C:\\Des\\Proeventos\\Proeventos\\Back\\src\\ProVentos.API\\ProVentos.API.csproj",
         "projectName": "ProVentos.API",
-        "projectPath": "C:\\Des\\Proeventos\\Proeventos\\back\\src\\ProVentos.API\\ProVentos.API.csproj",
+        "projectPath": "C:\\Des\\Proeventos\\Proeventos\\Back\\src\\ProVentos.API\\ProVentos.API.csproj",
         "packagesPath": "C:\\Users\\dhnascimento1\\.nuget\\packages\\",
-        "outputPath": "C:\\Des\\Proeventos\\Proeventos\\back\\src\\ProVentos.API\\obj\\",
+        "outputPath": "C:\\Des\\Proeventos\\Proeventos\\Back\\src\\ProVentos.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\dhnascimento1\\AppData\\Roaming\\NuGet\\NuGet.Config"
