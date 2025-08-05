@@ -29,9 +29,11 @@ namespace ProVentos.API.Controllers
         }
 
         [HttpGet("{id}")]
-        public IEnumerable<Evento> GetById(int id)
+        public Evento GetById(int id)
         {
-            return _context.Eventos.Where(ev => ev.EventoId == id);
+            return _context.Eventos.FirstOrDefault(
+                ev => ev.EventoId == id
+                );
         }
 
         [HttpPost]

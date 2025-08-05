@@ -1,25 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Des\\Proeventos\\Proeventos\\Back\\src\\ProVentos.API\\ProVentos.API.csproj": {}
+    "C:\\Des\\pro-eventos\\Back\\src\\ProVentos.API\\ProVentos.API.csproj": {}
   },
   "projects": {
-    "C:\\Des\\Proeventos\\Proeventos\\Back\\src\\ProVentos.API\\ProVentos.API.csproj": {
+    "C:\\Des\\pro-eventos\\Back\\src\\ProVentos.API\\ProVentos.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Des\\Proeventos\\Proeventos\\Back\\src\\ProVentos.API\\ProVentos.API.csproj",
+        "projectUniqueName": "C:\\Des\\pro-eventos\\Back\\src\\ProVentos.API\\ProVentos.API.csproj",
         "projectName": "ProVentos.API",
-        "projectPath": "C:\\Des\\Proeventos\\Proeventos\\Back\\src\\ProVentos.API\\ProVentos.API.csproj",
-        "packagesPath": "C:\\Users\\dhnascimento1\\.nuget\\packages\\",
-        "outputPath": "C:\\Des\\Proeventos\\Proeventos\\Back\\src\\ProVentos.API\\obj\\",
+        "projectPath": "C:\\Des\\pro-eventos\\Back\\src\\ProVentos.API\\ProVentos.API.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Des\\pro-eventos\\Back\\src\\ProVentos.API\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\dhnascimento1\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -32,12 +38,41 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite.Core": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
+            "SQLitePCLRaw.bundle_e_sqlite3": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[5.6.3, )"
