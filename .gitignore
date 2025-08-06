@@ -1,7 +1,7 @@
 ## Build e artefatos temporários
-bin/
-obj/
-out/
+Back/src/ProVentos.API/bin/
+Back/src/ProVentos.API/obj/
+Back/src/ProVentos.API/out/
 TestResults/
 *.user
 *.suo
