@@ -34,7 +34,8 @@ namespace ProVentos.API
             services.AddDbContext<DataContext>(options =>
                 options.UseSqlite(Configuration.GetConnectionString("DefaultConnection"))
                 );
-            services.AddControllers(); 
+            services.AddControllers();
+            services.AddCors();
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "ProVentos.API", Version = "v1" });
@@ -56,6 +57,10 @@ namespace ProVentos.API
             app.UseRouting();
 
             app.UseAuthorization();
+
+            app.UseCors(cors => cors.AllowAnyHeader()
+                                    .AllowAnyMethod()
+                                    .AllowAnyOrigin());
 
             app.UseEndpoints(endpoints =>
             {
