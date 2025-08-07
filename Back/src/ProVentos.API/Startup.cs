@@ -9,6 +9,8 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
 using ProVentos.API.Data;
+using ProVentos.API.Services;
+using ProVentos.API.Repositories;
 using SQLitePCL;
 using System;
 using System.Collections.Generic;
@@ -35,6 +37,8 @@ namespace ProVentos.API
                 options.UseSqlite(Configuration.GetConnectionString("DefaultConnection"))
                 );
             services.AddControllers();
+            services.AddScoped<IPacienteRepository, PacienteRepository>();
+            services.AddScoped<IPacienteService, PacienteService>();
             services.AddCors();
             services.AddSwaggerGen(c =>
             {
