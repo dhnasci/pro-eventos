@@ -1,4 +1,7 @@
 import { Component } from '@angular/core';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
+import { CollapseDirective } from 'ngx-bootstrap/collapse';
 
 @Component({
   selector: 'app-root',
