@@ -95,6 +95,6 @@ C:\Des\pro-eventos\Back\src\ProVentos.API\bin\Debug\net5.0\runtimes\osx-x64\nati
 C:\Des\pro-eventos\Back\src\ProVentos.API\bin\Debug\net5.0\runtimes\win-arm64\native\e_sqlite3.dll
 C:\Des\pro-eventos\Back\src\ProVentos.API\bin\Debug\net5.0\runtimes\win-x64\native\e_sqlite3.dll
 C:\Des\pro-eventos\Back\src\ProVentos.API\bin\Debug\net5.0\runtimes\win-x86\native\e_sqlite3.dll
-C:\Des\pro-eventos\Back\src\ProVentos.API\bin\Debug\net5.0\ref\ProVentos.API.dll
-C:\Des\pro-eventos\Back\src\ProVentos.API\obj\Debug\net5.0\ProVentos.API.csprojAssemblyReference.cache
-C:\Des\pro-eventos\Back\src\ProVentos.API\obj\Debug\net5.0\ProVentos.API.csproj.CopyComplete
+C:\Des\pro-eventos\Back\src\ProVentos.API\obj\Debug\net5.0\ProVentos.API.csproj.AssemblyReference.cache
+C:\Des\pro-eventos\Back\src\ProVentos.API\obj\Debug\net5.0\ProVento.26B835B0.Up2Date
+C:\Des\pro-eventos\Back\src\ProVentos.API\obj\Debug\net5.0\refint\ProVentos.API.dll
