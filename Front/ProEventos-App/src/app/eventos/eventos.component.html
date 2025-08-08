@@ -3,7 +3,7 @@
 
 <form action="" class="form-inline">
   <div class="form-group mb-2">
-    <input class="form-control mr-2" [placeholder]="buscar">
+    <input class="form-control mr-2">
     <button class="btn btn-outline-success">Buscar</button>
   </div>
 
@@ -11,9 +11,9 @@
 
 <table class="table table-striped">
   <thead class="thead-dark">
-    <tr>
+    <tr (click)="isImgCollapsed = !isImgCollapsed">
       <th>#</th>
-      <th>Imagem</th>
+      <th [hidden]="isImgCollapsed">Imagem</th>
       <th>Tema</th>
       <th>Local</th>
       <th>Data</th>
@@ -22,10 +22,15 @@
       <th>Opções</th>
     </tr>
   </thead>
-  <tbody>
+  <tbody *ngIf="eventos && eventos.length">
   <tr *ngFor="let evento of eventos">
     <td>{{evento.eventoId}}</td>
-    <td>{{evento.imagemURL}}</td>
+    <td [hidden]="isImgCollapsed"> <img src="/assets/{{evento.imagemURL}}"
+              alt="evento"
+              [style.width.px]="larguraImg"
+              [style.margin.px]="margemImg"
+    >
+      </td>
     <td>{{evento.tema}}</td>
     <td>{{evento.local}}</td>
     <td>{{evento.dataEvento}}</td>
@@ -34,4 +39,11 @@
     <td></td>
   </tr>
   </tbody>
+  <tfoot *ngIf="!eventos.length">
+    <tr>
+      <td colspan="8" class="text-center" >
+        <h4>Nenhum evento encontrado!</h4>
+      </td>
+    </tr>
+  </tfoot>
 </table>
