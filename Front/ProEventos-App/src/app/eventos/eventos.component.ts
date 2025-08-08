@@ -26,4 +26,8 @@ export class EventosComponent implements OnInit {
     );
   }
 
+  public alteraImagem(): void {
+    this.isImgCollapsed = !this.isImgCollapsed;
+  }
+
 }

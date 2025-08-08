@@ -11,9 +11,9 @@
 
 <table class="table table-striped">
   <thead class="thead-dark">
-    <tr (click)="isImgCollapsed = !isImgCollapsed">
+    <tr (click)="alteraImagem()">
       <th>#</th>
-      <th [hidden]="isImgCollapsed">Imagem</th>
+      <th [hidden]="!isImgCollapsed">Imagem</th>
       <th>Tema</th>
       <th>Local</th>
       <th>Data</th>
@@ -25,7 +25,9 @@
   <tbody *ngIf="eventos && eventos.length">
   <tr *ngFor="let evento of eventos">
     <td>{{evento.eventoId}}</td>
-    <td [hidden]="isImgCollapsed"> <img src="/assets/{{evento.imagemURL}}"
+    <td [hidden]="!isImgCollapsed"> <img [collapse]="!isImgCollapsed"
+              [isAnimated]="true"
+              src="/assets/{{evento.imagemURL}}"
               alt="evento"
               [style.width.px]="larguraImg"
               [style.margin.px]="margemImg"
