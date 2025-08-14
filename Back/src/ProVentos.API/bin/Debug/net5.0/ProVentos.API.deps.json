@@ -29,6 +29,7 @@
           "Microsoft.EntityFrameworkCore.Design": "5.0.2",
           "Microsoft.EntityFrameworkCore.Sqlite.Core": "5.0.2",
           "Microsoft.EntityFrameworkCore.Tools": "5.0.2",
+          "Proeventos.Application": "1.0.0",
           "SQLitePCLRaw.bundle_e_sqlite3": "3.0.0",
           "Swashbuckle.AspNetCore": "5.6.3",
           "Microsoft.AspNetCore.Antiforgery": "5.0.0.0",
@@ -763,6 +764,37 @@
         }
       },
       "System.Memory/4.6.3": {},
+      "Proeventos.Application/1.0.0": {
+        "dependencies": {
+          "Proeventos.Domain": "1.0.0",
+          "Proeventos.Persistence": "1.0.0"
+        },
+        "runtime": {
+          "Proeventos.Application.dll": {}
+        },
+        "compile": {
+          "Proeventos.Application.dll": {}
+        }
+      },
+      "Proeventos.Domain/1.0.0": {
+        "runtime": {
+          "Proeventos.Domain.dll": {}
+        },
+        "compile": {
+          "Proeventos.Domain.dll": {}
+        }
+      },
+      "Proeventos.Persistence/1.0.0": {
+        "dependencies": {
+          "Proeventos.Domain": "1.0.0"
+        },
+        "runtime": {
+          "Proeventos.Persistence.dll": {}
+        },
+        "compile": {
+          "Proeventos.Persistence.dll": {}
+        }
+      },
       "Microsoft.AspNetCore.Antiforgery/5.0.0.0": {
         "compile": {
           "Microsoft.AspNetCore.Antiforgery.dll": {}
@@ -2708,6 +2740,21 @@
       "sha512": "sha512-qdcDOgnFZY40+Q9876JUHnlHu7bosOHX8XISRoH94fwk6hgaeQGSgfZd8srWRZNt5bV9ZW2TljcegDNxsf+96A==",
       "path": "system.memory/4.6.3",
       "hashPath": "system.memory.4.6.3.nupkg.sha512"
+    },
+    "Proeventos.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Proeventos.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Proeventos.Persistence/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "Microsoft.AspNetCore.Antiforgery/5.0.0.0": {
       "type": "referenceassembly",

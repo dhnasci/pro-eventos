@@ -1,0 +1,50 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Proeventos.Application/1.0.0": {
+        "dependencies": {
+          "Proeventos.Domain": "1.0.0",
+          "Proeventos.Persistence": "1.0.0"
+        },
+        "runtime": {
+          "Proeventos.Application.dll": {}
+        }
+      },
+      "Proeventos.Domain/1.0.0": {
+        "runtime": {
+          "Proeventos.Domain.dll": {}
+        }
+      },
+      "Proeventos.Persistence/1.0.0": {
+        "dependencies": {
+          "Proeventos.Domain": "1.0.0"
+        },
+        "runtime": {
+          "Proeventos.Persistence.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Proeventos.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Proeventos.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Proeventos.Persistence/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
