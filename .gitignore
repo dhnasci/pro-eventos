@@ -69,3 +69,8 @@ artifacts/
 # Ignorar certificado de desenvolvimento do .NET
 *.pfx
 *.cer
+
+# Excluindo banco de dados
+.db
+.db-shm
+.db-wal
