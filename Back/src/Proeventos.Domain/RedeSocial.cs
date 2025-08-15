@@ -1,4 +1,4 @@
-﻿using Proeventos.Domain.Models;
+﻿using Proeventos.Domain;
 using System;
 using System.Collections.Generic;
 using System.Linq;

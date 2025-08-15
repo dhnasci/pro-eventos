@@ -25,4 +25,5 @@ namespace Proeventos.Persistence
                 .WithMany(p => p.PalestrantesEventos)
                 .HasForeignKey(pe => pe.PalestranteId);
         }
+    }
 }
